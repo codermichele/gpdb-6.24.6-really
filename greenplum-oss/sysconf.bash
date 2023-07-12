@@ -37,7 +37,8 @@ apt-get install -y \
 	python-psutil \
 	python-pygresql \
 	python-yaml \
-	zlib1g-dev
+	zlib1g-dev \
+        locales-all
 
 pip install conan
 
