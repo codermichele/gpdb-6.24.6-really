@@ -34,6 +34,7 @@ apt-get install -y \
 	python-dev \
 	python-pip \
 	python-psutil \
+        python-pygresql \
 	python-yaml \
 	zlib1g-dev
 
