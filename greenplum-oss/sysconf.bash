@@ -33,8 +33,8 @@ apt-get install -y \
 	locales \
 	#net-tools \
 	#ninja-build \
+ 	openssh-server \
 	openssh-client \
-	openssh-server \
 	openssl \
 	zlib1g-dev \
         locales-all \
