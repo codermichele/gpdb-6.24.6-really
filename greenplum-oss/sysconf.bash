@@ -30,12 +30,12 @@ apt-get install -y \
 	#libxml2-dev \
 	#libyaml-dev \
 	#libzstd-dev \
-	locales \
+	#locales \
 	#net-tools \
 	#ninja-build \
+ 	openssl \
  	openssh-server \
 	openssh-client \
-	openssl \
 	zlib1g-dev \
         locales-all \
 	cgroup-tools
