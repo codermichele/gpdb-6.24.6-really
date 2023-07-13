@@ -31,7 +31,6 @@ apt-get install -y \
 	openssh-client \
 	openssh-server \
 	openssl \
- 	pkg-config \
 	python-dev \
 	python-pip \
 	python-psutil \
