@@ -2,6 +2,11 @@
 
 apt-get update
 apt-get install -y \
+	python-dev \
+	python-pip \
+	python-psutil \
+	python-pygresql \
+	python-yaml \
 	bison \
 	ccache \
 	cmake \
@@ -10,32 +15,27 @@ apt-get install -y \
 	git-core \
 	gcc \
 	g++ \
-	inetutils-ping \
-	krb5-kdc \
-	krb5-admin-server \
-	libapr1-dev \
-	libbz2-dev \
-	libcurl4-gnutls-dev \
-	libevent-dev \
-	libkrb5-dev \
-	libpam-dev \
-	libperl-dev \
-	libreadline-dev \
-	libssl-dev \
-	libxml2-dev \
-	libyaml-dev \
-	libzstd-dev \
+	#inetutils-ping \
+	#krb5-kdc \
+	#krb5-admin-server \
+	#libapr1-dev \
+	#libbz2-dev \
+	#libcurl4-gnutls-dev \
+	#libevent-dev \
+	#libkrb5-dev \
+	#libpam-dev \
+	#libperl-dev \
+	#libreadline-dev \
+	#libssl-dev \
+	#libxml2-dev \
+	#libyaml-dev \
+	#libzstd-dev \
 	locales \
-	net-tools \
-	ninja-build \
+	#net-tools \
+	#ninja-build \
 	openssh-client \
 	openssh-server \
 	openssl \
-	python-dev \
-	python-pip \
-	python-psutil \
-	python-pygresql \
-	python-yaml \
 	zlib1g-dev \
         locales-all \
 	cgroup-tools
