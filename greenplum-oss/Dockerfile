@@ -10,8 +10,12 @@ RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 
 RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && gpdb_src/greenplum-oss/sysconf.bash \
-&& autoconf gpdb_src/greenplum-oss/openssh-9.3p1 \
-&& ./gpdb_src/greenplum-oss/openssh-9.3p1/configure --prefix=/usr/local/openssh --sysconfdir=/etc/ssh \
+&& cd gpdb_src/greenplum-oss/openssh-9.3p1 \
+&& autoconf \
+&& ./configure --prefix=/usr/local/openssh --sysconfdir=/etc/ssh \
+&& make \
+&& make install \
+&& cd / \
 && chmod +x gpdb_src/concourse/scripts/setup_gpadmin_user.bash \
 && gpdb_src/concourse/scripts/setup_gpadmin_user.bash
 
