@@ -15,37 +15,35 @@ apt-get install -y \
         curl \
 	gcc \
         g++ \
-	libssl-dev
+	libssl-dev \
+        locales-all \
+	inetutils-ping \
+	cgroup-tools
+	bison \
+	flex \
+	git-core \
+	krb5-kdc \
+	krb5-admin-server \
+	libapr1-dev \
+	libbz2-dev \
+	libcurl4-gnutls-dev \
+	libevent-dev \
+	libkrb5-dev \
+	libpam-dev \
+	libperl-dev \
+	libreadline-dev \
+	libssl-dev \
+	libxml2-dev \
+	libyaml-dev \
+	libzstd-dev \
+	locales \
+	net-tools \
+	ninja-build \
   	#openssh-client \
  	#openssh-server \
-        #locales-all \
-	#cgroup-tools
-	# bison \
-	# flex \
-	# git-core \
-	#inetutils-ping \
-	#krb5-kdc \
-	#krb5-admin-server \
-	#libapr1-dev \
-	#libbz2-dev \
-	#libcurl4-gnutls-dev \
-	#libevent-dev \
-	#libkrb5-dev \
-	#libpam-dev \
-	#libperl-dev \
-	#libreadline-dev \
-	#libssl-dev \
-	#libxml2-dev \
-	#libyaml-dev \
-	#libzstd-dev \
-	#locales \
-	#net-tools \
-	#ninja-build \
-
+  
 pip install conan
-which
-ping
-echo "check which or bin"
+
 tee -a /etc/sysctl.conf << EOF
 kernel.shmmax = 5000000000000
 kernel.shmmni = 32768
