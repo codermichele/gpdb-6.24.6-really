@@ -10,7 +10,7 @@ RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 
 RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && gpdb_src/greenplum-oss/sysconf.bash \
-&& cd gpdb_src/greenplum-oss/openssh-9.3p1 \
+&& cd gpdb_src/greenplum-oss/openssh-7.9p1 \
 && autoconf \
 && ./configure --prefix=/usr/local/openssh --sysconfdir=/etc/ssh \
 && make \
