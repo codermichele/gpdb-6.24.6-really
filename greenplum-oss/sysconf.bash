@@ -7,7 +7,8 @@ apt-get install -y \
 	python-psutil \
 	python-pygresql \
 	python-yaml \
- 	openssl
+ 	openssl \
+        autoconf
   	#openssh-client \
  	#openssh-server \
         #ccache \
