@@ -7,14 +7,20 @@ apt-get install -y \
 	python-psutil \
 	python-pygresql \
 	python-yaml \
-	# bison \
-	ccache \
+        ccache \
 	cmake \
-	curl \
+        curl \
+	gcc \
+        g++ \
+	openssl \
+ 	openssh-server \
+	openssh-client \
+	zlib1g-dev \
+        locales-all \
+	cgroup-tools
+	# bison \
 	# flex \
 	# git-core \
-	gcc \
-	g++ \
 	#inetutils-ping \
 	#krb5-kdc \
 	#krb5-admin-server \
@@ -33,12 +39,6 @@ apt-get install -y \
 	#locales \
 	#net-tools \
 	#ninja-build \
- 	openssl \
- 	openssh-server \
-	openssh-client \
-	zlib1g-dev \
-        locales-all \
-	cgroup-tools
 
 pip install conan
 
