@@ -8,8 +8,8 @@ apt-get install -y \
 	python-pygresql \
 	python-yaml \
  	openssl \
- 	openssh-server \
-	openssh-client \
+ 	# openssh-server \
+	# openssh-client \
         #ccache \
 	#cmake \
         #curl \
