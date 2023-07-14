@@ -2,23 +2,22 @@
 
 apt-get update
 apt-get install -y \
-        python2.7 \
-	python-dev \
+        python-dev \
 	python-pip \
 	python-psutil \
 	python-pygresql \
 	python-yaml \
-        ccache \
-	cmake \
-        curl \
-	gcc \
-        g++ \
-	openssl \
- 	openssh-server \
-	openssh-client \
-	zlib1g-dev \
-        locales-all \
-	cgroup-tools
+        #ccache \
+	#cmake \
+        #curl \
+	#gcc \
+        #g++ \
+	#openssl \
+ 	#openssh-server \
+	#openssh-client \
+	#zlib1g-dev \
+        #locales-all \
+	#cgroup-tools
 	# bison \
 	# flex \
 	# git-core \
