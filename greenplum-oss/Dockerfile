@@ -13,7 +13,7 @@ RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && cd gpdb_src/greenplum-oss/openssh-7.9p1 \
 && autoconf \
 && autoheader \
-&& ./configure --prefix=/usr/local/openssh --sysconfdir=/etc/ssh \
+&& ./configure --sysconfdir=/etc/ssh \
 && make \
 && make install \
 && cd / \
