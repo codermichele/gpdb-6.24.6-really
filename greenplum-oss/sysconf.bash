@@ -14,7 +14,8 @@ apt-get install -y \
 	cmake \
         curl \
 	gcc \
-        g++
+        g++ \
+	libssl-dev
   	#openssh-client \
  	#openssh-server \
         #locales-all \
