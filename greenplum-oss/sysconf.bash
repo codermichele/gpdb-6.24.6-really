@@ -7,12 +7,12 @@ apt-get install -y \
 	python-psutil \
 	python-pygresql \
 	python-yaml \
-	bison \
+	# bison \
 	ccache \
 	cmake \
 	curl \
-	flex \
-	git-core \
+	# flex \
+	# git-core \
 	gcc \
 	g++ \
 	#inetutils-ping \
