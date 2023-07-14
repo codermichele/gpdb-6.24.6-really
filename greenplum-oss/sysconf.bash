@@ -7,11 +7,9 @@ apt-get install -y \
 	python-psutil \
 	python-pygresql \
 	python-yaml \
- 	openssl \
-  	openssh \
-        openssh-client \
- 	#openssh-server
-	#  \
+ 	openssl
+  	#openssh-client \
+ 	#openssh-server \
         #ccache \
 	#cmake \
         #curl \
