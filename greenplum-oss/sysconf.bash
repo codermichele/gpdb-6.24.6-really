@@ -8,6 +8,7 @@ apt-get install -y \
 	python-pygresql \
 	python-yaml \
  	openssl \
+  	openssh \
         openssh-client \
  	#openssh-server
 	#  \
