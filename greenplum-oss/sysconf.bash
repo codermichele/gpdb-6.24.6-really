@@ -43,7 +43,9 @@ apt-get install -y \
 	#ninja-build \
 
 pip install conan
-
+which
+ping
+echo "check which or bin"
 tee -a /etc/sysctl.conf << EOF
 kernel.shmmax = 5000000000000
 kernel.shmmni = 32768
