@@ -2,11 +2,11 @@
 
 apt-get update
 apt-get install -y \
-	python-dev \
-	python-pip \
-	python-psutil \
-	python-pygresql \
-	python-yaml \
+	python2.7-dev \
+	python2.7-pip \
+	python2.7-psutil \
+	python2.7-pygresql \
+	python2.7-yaml \
         ccache \
 	cmake \
         curl \
