@@ -8,15 +8,15 @@ apt-get install -y \
 	python-pygresql \
 	python-yaml \
  	openssl \
-        autoconf
+        autoconf \
+	zlib1g-dev \
+        ccache \
+	cmake \
+        curl \
+	gcc \
+        g++
   	#openssh-client \
  	#openssh-server \
-        #ccache \
-	#cmake \
-        #curl \
-	#gcc \
-        #g++ \
-	#zlib1g-dev \
         #locales-all \
 	#cgroup-tools
 	# bison \
