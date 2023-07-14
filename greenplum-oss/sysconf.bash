@@ -2,7 +2,7 @@
 
 apt-get update
 apt-get install -y \
-        python2.7
+        python2.7 \
 	python-dev \
 	python-pip \
 	python-psutil \
