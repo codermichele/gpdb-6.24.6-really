@@ -16,6 +16,7 @@ RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && ./configure --sysconfdir=/etc/ssh \
 && make \
 && make install \
+&& echo "sshd:x:1200:1200:/var/run/sshd:/usr/sbin/nologin" >> /etc/passwd
 && cd / \
 && chmod +x gpdb_src/concourse/scripts/setup_gpadmin_user.bash \
 && gpdb_src/concourse/scripts/setup_gpadmin_user.bash
