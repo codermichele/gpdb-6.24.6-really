@@ -25,13 +25,13 @@ apt-get install -y \
 	libzstd-dev \
         libkrb5-dev \
 	python-gssapi
- 	libapr1-dev 
-	#libbz2-dev \
-	#libcurl4-gnutls-dev \
-	#libevent-dev
+ 	libapr1-dev \
+        libevent-dev \
+	libxml2-dev \
+        libperl-dev
+	#libbz2-dev
+	#libcurl4-gnutls-dev 
 	#libpam-dev \
-	#libperl-dev \
-	#libxml2-dev \
 	#libyaml-dev 
 	# git-core \
 	# krb5-kdc \
