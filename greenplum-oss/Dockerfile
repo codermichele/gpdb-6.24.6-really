@@ -19,6 +19,10 @@ RUN apt search libxml2 \
 && make install \
 && echo "sshd:x:1200:1200:/var/run/sshd:/usr/sbin/nologin" >> /etc/passwd \
 && ln -s /usr/local/sbin/sshd /usr/sbin/sshd \
+&& cd /gpdb_src/libxml2-2.9.0 \
+&& ./autogen.sh \
+&& make \
+&& make install \
 && cd / \
 && chmod +x gpdb_src/concourse/scripts/setup_gpadmin_user.bash \
 && gpdb_src/concourse/scripts/setup_gpadmin_user.bash
