@@ -38,6 +38,6 @@ WORKDIR /gpdb_src
 RUN find / -name readline \
 && ./configure --with-perl --with-python --with-libxml --with-gssapi --prefix=/usr/local/greenplum-db \
 && echo abcabc \
-&& cat config.log \
+&& find / -name config.log \
 && make -j8 \
 && make -j8 install
