@@ -24,9 +24,9 @@ apt-get install -y \
         libreadline-dev \
 	libzstd-dev \
         libkrb5-dev \
-	python-gssapi
- 	libapr1-dev \
+	python-gssapi \
         libevent-dev \
+ 	libapr1-dev \
 	libxml2-dev \
         libperl-dev
 	#libbz2-dev
