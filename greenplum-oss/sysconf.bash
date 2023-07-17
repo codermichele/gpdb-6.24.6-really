@@ -1,4 +1,4 @@
-#!/bin/bash
+ \#!/bin/bash
 
 apt-get update
 apt-get install -y \
@@ -18,7 +18,7 @@ apt-get install -y \
 	libssl-dev \
         locales-all \
 	inetutils-ping \
-	cgroup-tools
+	cgroup-tools \
 	bison \
 	flex \
 	git-core \
@@ -38,7 +38,7 @@ apt-get install -y \
 	libzstd-dev \
 	locales \
 	net-tools \
-	ninja-build \
+	ninja-build
   
 pip install conan
 
