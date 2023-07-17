@@ -38,7 +38,8 @@ apt-get install -y \
 	libzstd-dev \
 	locales \
 	net-tools \
-	ninja-build
+	ninja-build \
+	wget
   
 pip install conan
 
