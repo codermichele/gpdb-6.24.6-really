@@ -27,8 +27,9 @@ apt-get install -y \
 	python-gssapi \
         libevent-dev \
  	libapr1-dev \
-        texinfo \
-	help2man
+        libtool
+        #texinfo 
+	#help2man
         #libperl-dev
 	#libbz2-dev
 	#libcurl4-gnutls-dev 
