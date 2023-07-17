@@ -19,26 +19,25 @@ apt-get install -y \
         locales-all \
 	inetutils-ping \
 	cgroup-tools \
-	bison \
-	flex \
-	git-core \
-	krb5-kdc \
-	krb5-admin-server \
-	libapr1-dev \
-	libbz2-dev \
-	libcurl4-gnutls-dev \
-	libevent-dev \
-	libkrb5-dev \
-	libpam-dev \
-	libperl-dev \
-	libssl-dev \
-	libxml2-dev \
-	libyaml-dev \
-	libzstd-dev \
-	locales \
-	net-tools \
-	ninja-build \
-	wget
+	# bison \
+	# flex \
+	# git-core \
+	# krb5-kdc \
+	# krb5-admin-server \
+	# libapr1-dev \
+	# libbz2-dev \
+	# libcurl4-gnutls-dev \
+	# libevent-dev \
+	# libkrb5-dev \
+	# libpam-dev \
+	# libperl-dev \
+	# libxml2-dev \
+	# libyaml-dev \
+	# libzstd-dev \
+	# locales \
+	# net-tools \
+	# ninja-build \
+	# wget
  	#libreadline-dev
   
 pip install conan
