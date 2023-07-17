@@ -37,5 +37,7 @@ WORKDIR /gpdb_src
 # Configure build environment to install at /usr/local/gpdb
 RUN find / -name readline \
 && ./configure --with-perl --with-python --with-libxml --with-gssapi --prefix=/usr/local/greenplum-db \
+&& echo abcabc \
+&& cat config.log \
 && make -j8 \
 && make -j8 install
