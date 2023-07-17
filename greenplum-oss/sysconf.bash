@@ -27,7 +27,7 @@ apt-get install -y \
 	python-gssapi \
         libevent-dev \
  	libapr1-dev \
-	libxml2-dev=2.6.23 
+	libxml2-dev
         #libperl-dev
 	#libbz2-dev
 	#libcurl4-gnutls-dev 
