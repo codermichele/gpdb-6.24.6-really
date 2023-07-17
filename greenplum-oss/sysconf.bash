@@ -31,7 +31,6 @@ apt-get install -y \
 	libkrb5-dev \
 	libpam-dev \
 	libperl-dev \
-	libreadline-dev \
 	libssl-dev \
 	libxml2-dev \
 	libyaml-dev \
@@ -40,6 +39,7 @@ apt-get install -y \
 	net-tools \
 	ninja-build \
 	wget
+ 	#libreadline-dev
   
 pip install conan
 
