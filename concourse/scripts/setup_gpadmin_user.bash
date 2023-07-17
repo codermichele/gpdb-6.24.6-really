@@ -116,7 +116,7 @@ setup_sshd() {
     chmod 0755 /var/run/sshd
   fi
 
-  /usr/local/sbin/sshd
+  /usr/sbin/sshd
 
   ssh_keyscan_for_user root
   ssh_keyscan_for_user gpadmin
