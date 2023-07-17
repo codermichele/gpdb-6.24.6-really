@@ -19,8 +19,8 @@ apt-get install -y \
         locales-all \
 	inetutils-ping \
 	cgroup-tools \
-	# bison \
-	# flex \
+	bison \
+	flex
 	# git-core \
 	# krb5-kdc \
 	# krb5-admin-server \
