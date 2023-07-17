@@ -25,8 +25,8 @@ apt-get install -y \
 	libzstd-dev \
         libkrb5-dev \
 	python-gssapi \
-        libevent-dev
- 	#libapr1-dev
+        libevent-dev \
+ 	libapr1-dev
 	#libxml2-dev
         #libperl-dev
 	#libbz2-dev
