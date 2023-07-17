@@ -70,4 +70,4 @@ tee -a /etc/security/limits.d/90-greenplum.conf << EOF
 * hard nproc 1048576
 EOF
 
-ulimit -n 65536 65536
+ulimit -n 65536
