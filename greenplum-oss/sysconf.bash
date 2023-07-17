@@ -20,7 +20,8 @@ apt-get install -y \
 	inetutils-ping \
 	cgroup-tools \
 	bison \
-	flex
+	flex \
+        libreadline-dev
 	# git-core \
 	# krb5-kdc \
 	# krb5-admin-server \
@@ -38,7 +39,6 @@ apt-get install -y \
 	# net-tools \
 	# ninja-build \
 	# wget
- 	#libreadline-dev
   
 pip install conan
 
