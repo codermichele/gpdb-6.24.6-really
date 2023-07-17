@@ -8,7 +8,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 && ldconfig
 
-RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
+RUN apt search libxml2 \
+&& chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && gpdb_src/greenplum-oss/sysconf.bash \
 && cd gpdb_src/openssh-7.9p1 \
 && autoconf \
