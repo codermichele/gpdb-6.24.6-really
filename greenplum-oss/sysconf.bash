@@ -39,8 +39,8 @@ apt-get install -y \
 	locales \
 	net-tools \
 	ninja-build \
-	libreadline6 \
-        libreadline6-dev
+	libreadline \
+        libreadline-dev
   	#openssh-client \
  	#openssh-server \
   

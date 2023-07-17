@@ -31,8 +31,10 @@ RUN mkdir build \
 WORKDIR /gpdb_src
 
 # Configure build environment to install at /usr/local/gpdb
-RUN find / -name readline \
-&& echo 1234 \
+RUN dpkg -L libreadline \
+&& echo abc1234 \
+&& dpkg -L libreadline-dev \
+&& echo abc1234 \
 && ./configure --with-perl --with-python --with-libxml --with-gssapi --prefix=/usr/local/greenplum-db \
 && make -j8 \
 && make -j8 install
