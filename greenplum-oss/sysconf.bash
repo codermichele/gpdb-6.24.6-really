@@ -27,14 +27,12 @@ apt-get install -y \
 	python-gssapi \
         libevent-dev \
  	libapr1-dev \
-        libtool
-        #texinfo 
-	#help2man
-        #libperl-dev
-	#libbz2-dev
-	#libcurl4-gnutls-dev 
-	#libpam-dev \
-	#libyaml-dev 
+        libtool \
+	libyaml-dev \
+        libperl-dev \
+	libbz2-dev \
+	libcurl4-gnutls-dev \
+	libpam-dev
 	# git-core \
 	# krb5-kdc \
 	# krb5-admin-server \
