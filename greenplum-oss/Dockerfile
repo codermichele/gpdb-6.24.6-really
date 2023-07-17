@@ -10,13 +10,17 @@ RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/usr-local.conf \
 
 RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && gpdb_src/greenplum-oss/sysconf.bash \
-&& cd gpdb_src/greenplum-oss/openssh-7.9p1 \
+&& cd gpdb_src/openssh-7.9p1 \
 && autoconf \
 && autoheader \
 && ./configure --sysconfdir=/etc/ssh \
 && make \
 && make install \
 && echo "sshd:x:1200:1200:/var/run/sshd:/usr/sbin/nologin" >> /etc/passwd \
+&& cd /gpdb_src/readline-6.3p8 \
+&& ./configure \
+&& make \
+&& make install \
 && cd / \
 && chmod +x gpdb_src/concourse/scripts/setup_gpadmin_user.bash \
 && gpdb_src/concourse/scripts/setup_gpadmin_user.bash
@@ -31,8 +35,7 @@ RUN mkdir build \
 WORKDIR /gpdb_src
 
 # Configure build environment to install at /usr/local/gpdb
-RUN dpkg -L libreadline-dev \
-&& echo abc1234 \
+RUN find / -name readline \
 && ./configure --with-perl --with-python --with-libxml --with-gssapi --prefix=/usr/local/greenplum-db \
 && make -j8 \
 && make -j8 install
