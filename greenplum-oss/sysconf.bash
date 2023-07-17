@@ -22,19 +22,19 @@ apt-get install -y \
 	bison \
 	flex \
         libreadline-dev \
-	libzstd-dev
+	libzstd-dev \
+ 	libapr1-dev \
+	libbz2-dev \
+	libcurl4-gnutls-dev \
+	libevent-dev \
+	libkrb5-dev \
+	libpam-dev \
+	libperl-dev \
+	libxml2-dev \
+	libyaml-dev 
 	# git-core \
 	# krb5-kdc \
 	# krb5-admin-server \
-	# libapr1-dev \
-	# libbz2-dev \
-	# libcurl4-gnutls-dev \
-	# libevent-dev \
-	# libkrb5-dev \
-	# libpam-dev \
-	# libperl-dev \
-	# libxml2-dev \
-	# libyaml-dev \
 	# locales \
 	# net-tools \
 	# ninja-build \
