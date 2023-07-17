@@ -32,14 +32,15 @@ apt-get install -y \
         libperl-dev \
 	libbz2-dev \
 	libcurl4-gnutls-dev \
-	libpam-dev
-	# git-core \
-	# krb5-kdc \
-	# krb5-admin-server \
-	# locales \
-	# net-tools \
-	# ninja-build \
-	# wget
+	libpam-dev \
+        wget \
+	git-core \
+	krb5-kdc \
+	krb5-admin-server \
+	locales \
+	net-tools \
+	ninja-build 
+	
   
 pip install conan
 
