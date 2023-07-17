@@ -17,6 +17,7 @@ RUN chmod +x gpdb_src/greenplum-oss/sysconf.bash \
 && make \
 && make install \
 && echo "sshd:x:1200:1200:/var/run/sshd:/usr/sbin/nologin" >> /etc/passwd \
+&& ln -s /usr/local/sbin/sshd /usr/sbin/sshd \
 && cd /gpdb_src/readline-6.3p8 \
 && ./configure \
 && make \
