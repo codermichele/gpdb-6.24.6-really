@@ -21,7 +21,8 @@ apt-get install -y \
 	cgroup-tools \
 	bison \
 	flex \
-        libreadline-dev
+        libreadline-dev \
+	libzstd-dev
 	# git-core \
 	# krb5-kdc \
 	# krb5-admin-server \
@@ -34,7 +35,6 @@ apt-get install -y \
 	# libperl-dev \
 	# libxml2-dev \
 	# libyaml-dev \
-	# libzstd-dev \
 	# locales \
 	# net-tools \
 	# ninja-build \
