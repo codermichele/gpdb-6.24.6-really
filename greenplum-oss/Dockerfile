@@ -19,10 +19,6 @@ RUN apt search libxml2 \
 && make install \
 && echo "sshd:x:1200:1200:/var/run/sshd:/usr/sbin/nologin" >> /etc/passwd \
 && ln -s /usr/local/sbin/sshd /usr/sbin/sshd \
-&& cd /gpdb_src/libtool-2.4.6 \
-&& ./configure \
-&& make \
-&& make install \
 && cd /gpdb_src/libxml2-2.9.0 \
 && ./autogen.sh \
 && make \
