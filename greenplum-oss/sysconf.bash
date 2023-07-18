@@ -4,7 +4,6 @@ apt-get update
 apt-get install -y \
         python-dev \
 	python-pip \
-	python-psutil \
  	openssl \
         autoconf \
 	zlib1g-dev \
@@ -20,10 +19,9 @@ apt-get install -y \
 	bison \
 	flex \
         libreadline-dev \
-	libzstd-dev \
         libkrb5-dev \
 	python-gssapi \
-        libevent-dev \
+        libevent-dev=2.1.8 \
  	libapr1-dev \
         libtool \
 	libyaml-dev \
@@ -39,9 +37,15 @@ apt-get install -y \
 	net-tools \
 	ninja-build \
         libpq-dev
-        #python-yaml \
+        #python-yaml
+	#python-psutil
+ 	#libzstd-dev
   
-pip install conan
+pip install conan==1.48.2
+pip install pbr==5.4.3
+pip install lockfile==0.12.2
+pip install psutil==5.6.3
+pip install zstd==1.4.3.2
 
 tee -a /etc/sysctl.conf << EOF
 kernel.shmmax = 5000000000000
