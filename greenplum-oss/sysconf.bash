@@ -38,7 +38,8 @@ apt-get install -y \
 	krb5-admin-server \
 	locales \
 	net-tools \
-	ninja-build 
+	ninja-build \
+        libpq-dev
 	#python-pygresql
   
 pip install conan
