@@ -42,4 +42,6 @@ RUN find / -name readline \
 && echo abcabc \
 && find / -name config.log \
 && make -j8 \
-&& make -j8 install
+&& make -j8 install \
+&& cd /usr/local/greenplum-db/lib/python \
+&& sudo cp __init.py__ ./pygresql
