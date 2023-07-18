@@ -5,7 +5,6 @@ apt-get install -y \
         python-dev \
 	python-pip \
 	python-psutil \
-	#python-yaml \
  	openssl \
         autoconf \
 	zlib1g-dev \
@@ -40,6 +39,7 @@ apt-get install -y \
 	net-tools \
 	ninja-build \
         libpq-dev
+        #python-yaml \
   
 pip install conan
 
