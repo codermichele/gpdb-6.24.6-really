@@ -43,7 +43,8 @@ apt-get install -y \
 	#python-pygresql
   
 pip install conan
-pip install PyGreSQL==4.1.1
+#pip install PyGreSQL==4.1.1
+dpkg -i python-pygresql_4.0-3.1_amd64.deb
 
 tee -a /etc/sysctl.conf << EOF
 kernel.shmmax = 5000000000000
