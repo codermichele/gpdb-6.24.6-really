@@ -21,7 +21,7 @@ apt-get install -y \
         libreadline-dev \
         libkrb5-dev \
 	python-gssapi \
-        libevent-dev=2.1.8 \
+        libevent-dev=2.1.8-stable-4build1_amd64 \
  	libapr1-dev \
         libtool \
 	libyaml-dev \
