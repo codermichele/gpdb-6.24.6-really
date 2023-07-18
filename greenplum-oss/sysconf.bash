@@ -5,7 +5,6 @@ apt-get install -y \
         python-dev \
 	python-pip \
 	python-psutil \
-	python-pygresql \
 	python-yaml \
  	openssl \
         autoconf \
@@ -40,9 +39,10 @@ apt-get install -y \
 	locales \
 	net-tools \
 	ninja-build 
-	
+	#python-pygresql
   
 pip install conan
+pip install PyGreSQL==4.1.1
 
 tee -a /etc/sysctl.conf << EOF
 kernel.shmmax = 5000000000000
