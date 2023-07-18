@@ -43,5 +43,4 @@ RUN find / -name readline \
 && find / -name config.log \
 && make -j8 \
 && make -j8 install \
-&& cd /usr/local/greenplum-db/lib/python \
-&& cp __init.py__ ./pygresql
+&& touch /usr/local/greenplum-db/lib/python/pygresql/__init.py__
