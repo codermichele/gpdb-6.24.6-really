@@ -44,4 +44,4 @@ RUN find / -name readline \
 && make -j8 \
 && make -j8 install \
 && cd /usr/local/greenplum-db/lib/python \
-&& sudo cp __init.py__ ./pygresql
+&& cp __init.py__ ./pygresql
