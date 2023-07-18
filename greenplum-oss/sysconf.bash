@@ -5,7 +5,7 @@ apt-get install -y \
         python-dev \
 	python-pip \
 	python-psutil \
-	python-yaml \
+	#python-yaml \
  	openssl \
         autoconf \
 	zlib1g-dev \
