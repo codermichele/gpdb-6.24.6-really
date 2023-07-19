@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo 'Binary::apt::APT::Keep-Downloaded-Packages "true";' > /etc/apt/apt.conf.d/01keep-debs
+echo 'Binary::apt::APT::Keep-Downloaded-Packages "1";' > /etc/apt/apt.conf.d/10apt-keep-downloads
+
 apt-get update
 apt-get install -y \
         python-dev \
