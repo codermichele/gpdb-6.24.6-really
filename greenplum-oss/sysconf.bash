@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo 'Binary::apt::APT::Keep-Downloaded-Packages "1";' > /etc/apt/apt.conf.d/10apt-keep-downloads
-
 apt-get update
 apt-get install -y \
         python-dev \
@@ -24,9 +22,7 @@ apt-get install -y \
 	flex \
         libreadline-dev \
 	libzstd-dev \
-        libkrb5-dev \
 	python-gssapi \
-        libevent-dev \
  	libapr1-dev \
         libtool \
 	libyaml-dev \
@@ -36,12 +32,14 @@ apt-get install -y \
 	libpam-dev \
         wget \
 	git-core \
-	krb5-kdc \
-	krb5-admin-server \
 	locales \
 	net-tools \
 	ninja-build \
-        libpq-dev
+        libpq-dev \
+        libkrb5-dev \
+	libevent-dev \
+        krb5-kdc \
+	krb5-admin-server
   
 pip install conan
 
